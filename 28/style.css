@@ -1,0 +1,347 @@
+body{
+    margin: 0;
+}
+
+.my-site{
+    position: fixed;left: 0;
+    height: 100%;
+    width: 20%;
+    background-color: pink;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    margin-bottom: 20%;
+}
+
+nav a{
+    color: darkred;
+    font-family: 'cursive',serif;
+}
+
+#home-suite-home{
+    width: 80%;
+    margin-left: 20%;
+    text-align: center;
+    background-color: aqua;
+    padding-bottom: 30px;
+}
+
+#nakao1{
+    position: absolute;left: 20%;
+    position: absolute;top: 25px;
+    width: 20%;
+}
+
+#nakao2{
+    position: absolute;right: 2%;
+    position: absolute;top: 25px;
+    width: 20%;
+}
+
+.nakao3{
+    width: 30%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+
+/*好きな漫画*/
+
+
+#like-title{
+    width: 80%;
+    margin-left: 20%;
+}
+
+#work{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ h2{
+    text-align: center;
+}
+
+
+.word{
+    text-align: center;
+}
+
+#piece{
+    padding-left: 40px;
+    padding-right: 30px;
+    background-color: aquamarine;
+}
+
+#piece2{
+    padding-left: 5%;
+    border-left: 2px solid #333;  
+    background-color: blueviolet;
+    padding-right: 5%;
+}
+
+#piece3{
+    border-left: 2px solid #333;
+    padding-left: 5%;
+    background-color: aqua;
+    padding-right: 5%;
+}
+
+#piece p{
+    text-align: center;
+}
+
+#piece2 p{
+    text-align: center;
+}
+
+#piece3 p{
+    text-align: center;
+}
+
+
+
+
+/*好きな歌手*/
+
+
+
+body{
+    margin: 0;
+}
+
+.my-site{
+    position: fixed;left: 0;
+    height: 100%;
+    width: 20%;
+    background-color: pink;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    margin-bottom: 20%;
+}
+
+nav a{
+    color: darkred;
+    font-family: 'cursive',serif;
+}
+
+#like-singer{
+    width: 80%;
+    margin-left: 20%;
+    text-align: center;
+    background-color: bisque;
+}
+
+
+#introduction {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;margin-right: auto;
+  align-items: center;
+  position: relative;
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+}
+
+
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: fade 12s infinite;
+}
+
+.slide:nth-child(1) { animation-delay: 0s; }
+.slide:nth-child(2) { animation-delay: 4s; }
+.slide:nth-child(3) { animation-delay: 8s; }
+
+@keyframes fade {
+  0%   { opacity: 0; }
+  10%  { opacity: 1; }
+  30%  { opacity: 1; }
+  40%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+#text-introduction{
+    text-align: start;
+}
+
+#text-introduction h2{
+    text-align: start;
+}
+
+
+
+/*好きな食べ物*/
+
+
+
+body{
+    margin: 0;
+}
+
+.my-site{
+    position: fixed;left: 0;
+    height: 100%;
+    width: 20%;
+    background-color: pink;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    margin-bottom: 20%;
+}
+
+nav a{
+    color: darkred;
+    font-family: 'cursive',serif;
+}
+
+#like-food{
+    width: 80%;
+    margin-left: 20%;
+    background-color: palegreen;
+}
+
+#food-review{
+    display: flex;
+    justify-content: space-between;
+}
+
+#food1{
+    padding-right: 10%;
+    background-color: palevioletred;
+}
+
+#food1 img{
+    width: 40%;
+}
+
+
+#food1 h2{
+    text-align: start;
+}
+
+#food2{
+    background-color: cadetblue;
+}
+
+#food2 h2{
+    text-align: start;
+}
+
+#soda{
+    width: 30%;
+}
+
+#grape{
+    width: 48%;
+}
+
+#like-food h1{
+    text-align: center;
+}
+
+
+
+/*好きな映画*/
+
+body{
+    margin: 0;
+    background-color: darkblue;
+}
+
+.my-site{
+    position: fixed;left: 0;
+    height: 100%;
+    width: 20%;
+    background-color: pink;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    margin-bottom: 20%;
+}
+
+nav a{
+    color: darkred;
+    font-family: 'cursive',serif;
+}
+
+#like-movie{
+    width: 80%;
+    margin-left: 20%;
+
+}
+
+#like-movie h1{
+    text-align: center;
+    color: antiquewhite;
+}
+
+#three-movie{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+
+
+#introduction-movie1{
+    background-color: aliceblue;
+    padding-top: 30px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+#introduction-movie2{
+    background-color: aliceblue;
+    padding-top: 30px;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+#introduction-movie3{
+    background-color: aliceblue;
+    padding-top: 30px;
+    padding-right: 6%;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+
+#picture1{
+    width: 70%;
+}
+
+#picture2{
+    width: 100%;
+}
+
+#picture3{
+    width: 110%;
+}
+
+
+/*趣味/*
+
