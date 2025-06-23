@@ -343,5 +343,55 @@ nav a{
 }
 
 
-/*趣味/*
+/*趣味*/
 
+#favorite{
+    width: 80%;
+    margin-left: 20%;
+}
+
+#like-oshikatu {
+    width: 80%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;margin-right: auto;
+    align-items: center;
+    position: relative;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#favorite h1{
+    text-align: center;
+}
+
+#nagisa{
+    padding-left: 70%;
+    padding-top: 0;
+    width: 30%;
+}
+
+.powerpoint{
+    position: absolute;
+    width: 100;
+    height: 70%;
+    opacity: 0;
+    animation: fade 16s infinite;
+    object-fit: cover;
+}
+
+.powerpoint:nth-child(1) { animation-delay: 0s; }
+.powerpoint:nth-child(2) { animation-delay: 6s; }
+.powerpoint:nth-child(3) { animation-delay: 12s; }
+.powerpoint:nth-child(4) { animation-delay: 24s; }
+
+
+@keyframes fade {
+  0%   { opacity: 0; }
+  10%  { opacity: 1; }
+  30%  { opacity: 1; }
+  40%  { opacity: 0; }
+  100% { opacity: 0; }
+}
