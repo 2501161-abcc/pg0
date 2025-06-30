@@ -79,6 +79,10 @@ nav a{
     background-color: aquamarine;
 }
 
+#piece img{
+    width: 100%;
+}
+
 #piece2{
     padding-left: 5%;
     border-left: 2px solid #333;  
@@ -86,11 +90,19 @@ nav a{
     padding-right: 5%;
 }
 
+#piece2 img{
+    width: 100%;
+}
+
 #piece3{
     border-left: 2px solid #333;
     padding-left: 5%;
     background-color: aqua;
-    padding-right: 5%;
+
+}
+
+#piece3 img{
+    width: 70%;
 }
 
 #piece p{
@@ -355,7 +367,6 @@ nav a{
     margin-left: 20%;
     display: flex;
     justify-content: space-between;
-    margin-left: auto;margin-right: auto;
     align-items: center;
     position: relative;
     width: 600px;
@@ -363,15 +374,31 @@ nav a{
     overflow: hidden;
 }
 
+#text-favorite h2{
+    padding-top: 20px;
+    text-align: start;
+}
+
 #favorite h1{
     text-align: center;
 }
 
-#nagisa{
-    padding-left: 70%;
-    padding-top: 0;
+
+#nagisa1{
+    position: absolute;right: 0%;
+    position: absolute;top: 130%;
     width: 30%;
 }
+
+
+#nagisa2{
+    position: absolute;right: 0%;
+    position: absolute;top: 75%;
+    width: 30%;
+}
+
+
+
 
 .powerpoint{
     position: absolute;
@@ -394,4 +421,40 @@ nav a{
   30%  { opacity: 1; }
   40%  { opacity: 0; }
   100% { opacity: 0; }
+}
+
+
+#h2-Expertise h2{
+    color: azure;
+    text-align: start;
+}
+
+#nagisa-Expertise p{
+    padding-top: 1%;
+    padding-left: 45%;
+}
+
+#nagisa-Expertise a{
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+#text-favorite{
+    color: aqua;
+}
+
+
+
+#text-favorite h2{
+    color: bisque;
+}
+
+#Explanation{
+    padding-top: 10%;
+    color: chartreuse;
+}
+
+#Explanation h2{
+    color: burlywood;
+    text-align: start;
 }
